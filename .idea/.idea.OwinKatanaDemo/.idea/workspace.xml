@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e96c5a-8cce-49ec-8521-b6a96cf40d15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/OwinKatanaDemo.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/app.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/OwinKatanaDemo.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/OwinKatanaDemo.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/OwinKatanaDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/OwinKatanaDemo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/OwinKatanaDemo.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/Debug/netcoreapp2.2/OwinKatanaDemo.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/obj/OwinKatanaDemo.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/OwinKatanaDemo.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/obj/OwinKatanaDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/OwinKatanaDemo.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwinKatanaDemo/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OwinKatanaDemo/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,31 +26,77 @@
     <favorites_list name="OwinKatanaDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+              <folding>
+                <marker date="1560365883361" expanded="true" signature="6:211" ph="..." />
+                <marker date="1560365883361" expanded="true" signature="237:1117" ph="{...}" />
+                <marker date="1560365883361" expanded="true" signature="264:1115" ph="{...}" />
+                <marker date="1560365883361" expanded="true" signature="279:494" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+                <marker date="1560365883361" expanded="true" signature="561:581" ph="{...}" />
+                <marker date="1560365883361" expanded="true" signature="769:1109" ph="{...}" />
+                <marker date="1560365883361" expanded="true" signature="816:893" ph="{...}" />
+                <marker date="1560365883361" expanded="true" signature="1015:1097" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddleware.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <marker date="1560366169337" expanded="true" signature="6:122" ph="..." />
+                <marker date="1560366169337" expanded="true" signature="159:1060" ph="{...}" />
+                <marker date="1560366169337" expanded="true" signature="194:1058" ph="{...}" />
+                <marker date="1560366169337" expanded="true" signature="390:864" ph="{...}" />
+                <marker date="1560366169337" expanded="true" signature="518:654" ph="{...}" />
+                <marker date="1560366169337" expanded="true" signature="718:854" ph="{...}" />
+                <marker date="1560366169337" expanded="true" signature="915:1052" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareOptions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1560365505928" expanded="true" signature="6:46" ph="..." />
+                <marker date="1560365505928" expanded="true" signature="83:273" ph="{...}" />
+                <marker date="1560365505928" expanded="true" signature="125:271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <marker date="1560365735510" expanded="true" signature="72:353" ph="{...}" />
+                <marker date="1560365735510" expanded="true" signature="124:351" ph="{...}" />
+                <marker date="1560365735510" expanded="true" signature="257:345" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/app.config">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/appsettings.Development.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -70,8 +107,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/OwinKatanaDemo/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OwinKatanaDemo/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OwinKatanaDemo/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/21/f8501969/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/OwinKatanaDemo/Modules/HomeModule.cs" />
+        <option value="$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareOptions.cs" />
+        <option value="$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareExtensions.cs" />
+        <option value="$PROJECT_DIR$/OwinKatanaDemo/Startup.cs" />
+        <option value="$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddleware.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.OwinKatanaDemo/.idea/vcs.xml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -79,7 +139,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -97,13 +159,19 @@
               <item name="OwinKatanaDemo" type="24d0babc:SolutionExplorerModelNode" />
               <item name="OwinKatanaDemo" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="OwinKatanaDemo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="OwinKatanaDemo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Middleware" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,6 +183,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,11 +237,13 @@
       <option name="presentableId" value="Default" />
       <updated>1559799881811</updated>
       <workItem from="1559799884957" duration="3217000" />
+      <workItem from="1560350966853" duration="1130000" />
+      <workItem from="1560353875139" duration="6576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3217000" />
+    <option name="totallyTimeSpent" value="10923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,38 +255,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5010548" side_tool="true" visible="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894515" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894515" visible="true" weight="0.25397456" />
       <window_info id="Structure" order="1" sideWeight="0.5010548" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.32805908" />
-      <window_info anchor="bottom" id="Docker" weight="0.32911393" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32911393" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010548" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32874617" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3998471" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" weight="0.32995737" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32798165" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" weight="0.32911393" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32874617" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.32874617" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -227,23 +302,83 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/appsettings.Development.json" />
+    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/appsettings.json" />
+    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Modules/HomeModule.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/app.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding>
+            <marker date="1560365883361" expanded="true" signature="6:211" ph="..." />
+            <marker date="1560365883361" expanded="true" signature="237:1117" ph="{...}" />
+            <marker date="1560365883361" expanded="true" signature="264:1115" ph="{...}" />
+            <marker date="1560365883361" expanded="true" signature="279:494" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+            <marker date="1560365883361" expanded="true" signature="561:581" ph="{...}" />
+            <marker date="1560365883361" expanded="true" signature="769:1109" ph="{...}" />
+            <marker date="1560365883361" expanded="true" signature="816:893" ph="{...}" />
+            <marker date="1560365883361" expanded="true" signature="1015:1097" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/21/f8501969/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1560365735510" expanded="true" signature="72:353" ph="{...}" />
+            <marker date="1560365735510" expanded="true" signature="124:351" ph="{...}" />
+            <marker date="1560365735510" expanded="true" signature="257:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddlewareOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1560365505928" expanded="true" signature="6:46" ph="..." />
+            <marker date="1560365505928" expanded="true" signature="83:273" ph="{...}" />
+            <marker date="1560365505928" expanded="true" signature="125:271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OwinKatanaDemo/Middleware/DebugMiddleware.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <marker date="1560366169337" expanded="true" signature="6:122" ph="..." />
+            <marker date="1560366169337" expanded="true" signature="159:1060" ph="{...}" />
+            <marker date="1560366169337" expanded="true" signature="194:1058" ph="{...}" />
+            <marker date="1560366169337" expanded="true" signature="390:864" ph="{...}" />
+            <marker date="1560366169337" expanded="true" signature="518:654" ph="{...}" />
+            <marker date="1560366169337" expanded="true" signature="718:854" ph="{...}" />
+            <marker date="1560366169337" expanded="true" signature="915:1052" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

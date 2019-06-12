@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using OwinKatanaDemo.Middleware;
 
 namespace OwinKatanaDemo
 {
@@ -25,7 +23,11 @@ namespace OwinKatanaDemo
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) => { await context.Response.WriteAsync("Hello World!"); });
+            app.UseDebugMiddleware(new DebugMiddlewareOptions());
+            app.Use( async (ctx, next) =>
+            {
+                await ctx.Response.WriteAsync("Hello from Owin!");
+            });
         }
     }
 }

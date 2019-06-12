@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Martin\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Martin\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_OwinKatanaDemo.-741022208.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Martin\RiderProjects\OwinKatanaDemo" t="IncludeFlat">
+    <e p="C:\Users\marti\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\marti\.Rider2019.1\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\marti\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\marti\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\marti\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_OwinKatanaDemo.-634464956.00" t="ExcludeRecursive" />
+    <e p="E:\uni_projects\OwinKatanaDemo" t="IncludeFlat">
       <e p="OwinKatanaDemo" t="IncludeRecursive">
         <e p="app.config" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Middleware" t="Include">
+          <e p="DebugMiddleware.cs" t="Include" />
+          <e p="DebugMiddlewareExtensions.cs" t="Include" />
+          <e p="DebugMiddlewareOptions.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
